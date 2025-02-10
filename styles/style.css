@@ -1,0 +1,58 @@
+body {
+    font-family: "Knewave", serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #5fbac0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-family: "Knewave", serif;
+    background-color: #2da6af;
+    color: white;
+    padding: 10px 15px;
+    border: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7ef6ff;
+}
+
+#mad-lib-output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0ffff;
+    border: 2px solid #7ef6ff;
+    border-radius: 5px;
+}
